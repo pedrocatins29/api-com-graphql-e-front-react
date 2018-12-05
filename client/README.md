@@ -1,3 +1,2 @@
-#######################################################
-Front end com react
+# Front end com react
 
