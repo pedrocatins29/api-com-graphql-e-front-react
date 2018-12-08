@@ -3,6 +3,7 @@ import BookList from './Components/BookList'
 import ApolloClient from 'apollo-boost'
 import {ApolloProvider} from 'react-apollo'
 import AddBook from './Components/AddBook'
+import Booksapi from './Components/Booksapi'
 
 //criando um ApolloClient para o react interagir com o graphql na porta 4000
 
@@ -19,6 +20,7 @@ class App extends Component {
           <h1>
             Lista de livros TOPS
             <BookList/>
+            {/* <Booksapi/> */}
             <AddBook/>
           </h1>
         </div>
