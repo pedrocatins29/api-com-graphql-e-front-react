@@ -27,5 +27,6 @@ app.use('/graphql', graphqlHTTP({
 
 //dizendo para o express iniciar na porta 4000
 app.listen(4000, () =>{
-    console.log('Recebendo requests na porta 4000')
+    console.log('Recebendo requests na porta 4000 teste')
 });
+
