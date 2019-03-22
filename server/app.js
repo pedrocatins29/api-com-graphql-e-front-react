@@ -10,7 +10,7 @@ const app = express();
 
 app.use(cors())
 
-mongoose.connect('mongodb://pedrocatins29:melebaby123@ds231228.mlab.com:31228/graph-learning')
+mongoose.connect('mongodb://pedrocatins29:SENHA@ds231228.mlab.com:31228/graph-learning')
 mongoose.connection.once('open', () =>{
     console.log('conectado com o banco de dados')
 })
